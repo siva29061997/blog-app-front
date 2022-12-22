@@ -20,6 +20,7 @@ export default function Login() {
       });
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
     } catch (err) {
+      alert("username or password is wrong")
       dispatch({ type: "LOGIN_FAILURE" });
     }
   };
