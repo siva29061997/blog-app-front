@@ -1,3 +1,3 @@
 export const env = {
-    api: "http://localhost:5000/api"
+    api: "https://siva-blog-app.onrender.com/api"
 }
